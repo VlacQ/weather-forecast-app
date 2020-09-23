@@ -1,0 +1,15 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /api
+weatherApp:
+  openWeather:
+    apiKey: a702189cbb6358eb7de11725dedff165
+    url: http://api.openweathermap.org/data/2.5/weather?
+  weatherBit:
+    apiKey: c8c0bbe85b694b8f89e28444bda13c2c
+    url: http://api.weatherbit.io/v2.0/current?
+  accuWeather:
+    apiKey: bAmxHKqAgndnrFmvqPfEIRs4OdaprHRT
+    urlLocation: http://dataservice.accuweather.com/locations/v1/cities/geoposition/search?
+    url: http://dataservice.accuweather.com/currentconditions/v1/
